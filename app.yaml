@@ -1,0 +1,3 @@
+# Hello-World-GCP2
+runtime: python311 
+entrypoint: gunicorn -b :$PORT main:app 
